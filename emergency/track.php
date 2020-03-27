@@ -15,14 +15,14 @@ include '../conn.php';
   
     $doctor_data = array();
     $locaion_lat='';
-    $id_number='';
+    $name='';
     $location_lng='';
 
   
 
 
 
-    $getlocation = mysqli_query($connect,"SELECT id_number, location_lng, locaion_lat FROM patient WHERE complete ='no' ORDER BY requested_at DESC   "); 
+    $getlocation = mysqli_query($connect,"SELECT * FROM patient WHERE complete ='no' ORDER BY requested_at DESC   "); 
     $rows = mysqli_num_rows($getlocation);
     
   
@@ -35,7 +35,7 @@ include '../conn.php';
     {
       $locaion_lat=  $row['locaion_lat'];
       $location_lng=  $row['location_lng'];
-      $id_number=  $row['id_number'];
+      $name=  $row['name'];
 
     }
     else
@@ -167,7 +167,7 @@ include '../conn.php';
       var markers = [
         {
           coords:{lat:<?php echo $locaion_lat; ?>,lng:<?php echo  $location_lng; ?>},
-          content:'<h6><?php echo  $location_lng; ?></h6>'
+          content:'<h6><?php echo  $name; ?></h6>'
         },
       
         {
@@ -193,8 +193,8 @@ include '../conn.php';
                     anchor: new google.maps.Point(0, 0) // anchor
                 },
             label: {
-            text: "<?php echo $id_number; ?>",
-            color: "#C70E20",
+           
+            color: "#fff",
             fontWeight: "bold",
             fontSize:"18px"
                 }
@@ -213,9 +213,7 @@ include '../conn.php';
             content:props.content
           });
 
-          marker.addListener('click', function(){
-            infoWindow.open(map, marker);
-          });
+          infoWindow.open(map, marker);
         }
       }
     }

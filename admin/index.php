@@ -87,12 +87,12 @@ include '../conn.php';
       <div style="margin-top: 100px;" class="container">
         <div class="row">
 
-          <div class="col-md-6 ">
-            <img  src="https://via.placeholder.com/350" alt="">
+          <div class="col-md-4 ">
+          <img  style="width: 400px; height: 400px" src="../logo.png" alt="">
              
           </div>
           
-          <div class="col-md-4 ">
+          <div class="col-md-8 ">
    
         
 

@@ -73,7 +73,7 @@ if (isset($_POST['name']) ){
       <div class="container">
         <div class="row">
           <div class="col-md-10">
-            <h1> Add Doctor</h1>
+            <h1> Add User</h1>
           </div>
         
         </div>

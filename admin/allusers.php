@@ -26,7 +26,7 @@ $id_number='';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>All Doctors </title>
+    <title>All Users </title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
      <link href="css/style.css" rel="stylesheet">
@@ -40,7 +40,7 @@ $id_number='';
       <div class="container">
         <div class="row">
           <div class="col-md-10">
-            <h1> All Doctors </h1>
+            <h1> All Users </h1>
           </div>
         
         </div>
@@ -65,7 +65,7 @@ $id_number='';
       
             <div class="panel panel-default">
               <div class="panel-heading main-color-bg">
-                <h3 class="panel-title">All Doctors </h3>
+                <h3 class="panel-title">All Users </h3>
               </div>
               <div class="panel-body">
 

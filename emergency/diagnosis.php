@@ -8,11 +8,6 @@ $id_number='';
 
 
 
-if(isset($_POST['cancel']) ){
-
-
-  echo "fuck";
-}
 
 
 
@@ -62,7 +57,9 @@ if (isset($_POST['rediagnosis']) ){
         if($update_diagnosis){
           $upated =true;
 
-          header("Location: diagnosis.php");
+          $diagnosis=$rediagnosis;
+
+         // header("Location: diagnosis.php");
 
         }
 

@@ -100,7 +100,7 @@ $get_user = $getuser->fetch_assoc();
                        <h3> User Data : </h3>
                        <br> 
 
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
                              <p> Name : </p>
                              <input readonly style="
@@ -124,7 +124,7 @@ $get_user = $getuser->fetch_assoc();
             
                        
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
 
                       <p> Job : </p>
@@ -148,7 +148,7 @@ $get_user = $getuser->fetch_assoc();
             
                        
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
 
                                <p> Date of birth : </p>
@@ -170,7 +170,7 @@ $get_user = $getuser->fetch_assoc();
             
                        
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
 
                             <p> Gender : </p>
@@ -200,7 +200,7 @@ $get_user = $getuser->fetch_assoc();
 
 
                  <div class="row"> 
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
                              <p> Gender : </p>
                              <input readonly style="
@@ -224,7 +224,7 @@ $get_user = $getuser->fetch_assoc();
             
                        
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
 
                       <p> Assurance : </p>
@@ -259,7 +259,7 @@ $get_user = $getuser->fetch_assoc();
 
                        <h3> Vital Rates : </h3>
                        <br> 
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
                              <p> Blood Pressure : </p>
                              <input readonly style="
@@ -283,7 +283,7 @@ $get_user = $getuser->fetch_assoc();
             
                        
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
 
                       <p> Breathe rate : </p>
@@ -309,7 +309,7 @@ $get_user = $getuser->fetch_assoc();
                       </div>
 
 
-                      <div class="col-md-3">
+                      <div class="col-md-2">
             
 
             <p> Heart beat rate : </p>
@@ -334,7 +334,7 @@ $get_user = $getuser->fetch_assoc();
              
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-2">
             
 
             <p> Blood Type : </p>
@@ -369,7 +369,7 @@ $get_user = $getuser->fetch_assoc();
 
 
                        
-                        <div class="col-md-3">
+                        <div class="col-md-2">
 
                               <p> Hip : </p>
                               <input readonly style="
@@ -393,7 +393,7 @@ $get_user = $getuser->fetch_assoc();
 
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-2">
 
 
                         <p> Wrist : </p>
@@ -419,7 +419,7 @@ $get_user = $getuser->fetch_assoc();
                         </div>
 
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
 
 
                         <p> Height : </p>
@@ -444,7 +444,7 @@ $get_user = $getuser->fetch_assoc();
 
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
 
 
                         <p> Weight : </p>
@@ -486,7 +486,7 @@ $get_user = $getuser->fetch_assoc();
 
 
                        
-                                <div class="col-md-3">
+                                <div class="col-md-2">
 
                                       <p> Eat Fruits : </p>
                                       <input readonly style="
@@ -510,7 +510,7 @@ $get_user = $getuser->fetch_assoc();
 
 
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
 
 
                                 <p> Eat Vegetables : </p>
@@ -536,7 +536,7 @@ $get_user = $getuser->fetch_assoc();
                                 </div>
 
 
-                                <div class="col-md-3">
+                                <div class="col-md-2">
 
 
                                 <p> Eat meat : </p>
@@ -561,7 +561,7 @@ $get_user = $getuser->fetch_assoc();
 
                                 </div>
 
-                                <div class="col-md-3">
+                                <div class="col-md-2">
 
 
                                 <p> Smoke Cigarrete : </p>
@@ -598,7 +598,7 @@ $get_user = $getuser->fetch_assoc();
 
 
 
-                    <div class="col-md-3">
+                    <div class="col-md-2">
 
                           <p> Drink Alcohol : </p>
                           <input readonly style="
@@ -622,7 +622,7 @@ $get_user = $getuser->fetch_assoc();
 
 
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
 
 
                     <p> Drugs : </p>
@@ -648,7 +648,7 @@ $get_user = $getuser->fetch_assoc();
                     </div>
 
 
-                    <div class="col-md-3">
+                    <div class="col-md-2">
 
 
                     <p> Work Effot : </p>
@@ -673,7 +673,7 @@ $get_user = $getuser->fetch_assoc();
 
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-2">
 
 
                     <p> Moving Effort : </p>
@@ -708,7 +708,7 @@ $get_user = $getuser->fetch_assoc();
 
 
 
-                                    <div class="col-md-3">
+                                    <div class="col-md-2">
 
                                           <p> Vacation effort : </p>
                                           <input readonly style="
@@ -743,7 +743,7 @@ $get_user = $getuser->fetch_assoc();
 
 
 
-                            <div class="col-md-3">
+                            <div class="col-md-2">
 
                                   <p> Chronic diseases	 : </p>
                                   <input readonly style="
@@ -759,7 +759,7 @@ $get_user = $getuser->fetch_assoc();
                                   </div>
 
 
-                                  <div class="col-md-3">
+                                  <div class="col-md-2">
 
                                   <p> Danegrous diseases: </p>
                                   <input readonly style="
@@ -775,7 +775,7 @@ $get_user = $getuser->fetch_assoc();
                                   </div>
 
 
-                                  <div class="col-md-3">
+                                  <div class="col-md-2">
 
                                     <p> Medication: </p>
                                     <input readonly style="
@@ -791,7 +791,7 @@ $get_user = $getuser->fetch_assoc();
                                     </div>
 
 
-                                    <div class="col-md-3">
+                                    <div class="col-md-2">
 
                                     <p> Allergic: </p>
                                     <input readonly style="
@@ -821,7 +821,7 @@ $get_user = $getuser->fetch_assoc();
 
 
 
-                                <div class="col-md-3">
+                                <div class="col-md-2">
 
                                       <p> 	Previous surgeries: </p>
                                       <input readonly style="
@@ -836,7 +836,7 @@ $get_user = $getuser->fetch_assoc();
                                      </div>
 
 
-                                     <div class="col-md-3">
+                                     <div class="col-md-2">
 
                                     <p>Vaccination: </p>
                                     <input readonly style="
@@ -851,7 +851,7 @@ $get_user = $getuser->fetch_assoc();
                                   </div>
 
 
-                                  <div class="col-md-3">
+                                  <div class="col-md-2">
 
                                   <p>	Family diseases: </p>
                                   <input readonly style="
@@ -924,7 +924,7 @@ $get_user = $getuser->fetch_assoc();
       </div>
     </section>
 
-    <footer id="footer">
+    <footer id="footer"  >
       <p>Copyright ACH, &copy; 2020</p>
     </footer>
 
