@@ -139,7 +139,7 @@ if (isset($_POST['diagnosis']) ){
                   height: 50px;
                   color: white;
                   border-radius: 20px;
-                  width: 100%;" type="submit" class="btn btn-default btn-block">Write Diagnosis</button>
+                  width: 100%;" type="submit" class="btn btn-default btn-block">Send Diagnosis</button>
               </form>
                 
              

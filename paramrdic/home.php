@@ -213,9 +213,9 @@ include '../conn.php';
             content:props.content
           });
 
-     
-            infoWindow.open(map, marker);
-        
+          // marker.addListener('click', function(){
+          //   infoWindow.open(map, marker);
+          // });
         }
       }
     }

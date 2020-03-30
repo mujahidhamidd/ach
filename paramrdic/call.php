@@ -1,18 +1,45 @@
 <?php
 
+  
 session_start();
-
 include '../conn.php';
 
 
-
-
+if(isset($_GET['call'])){
 
  
+
+
+
+
+
+  
+
+  $getdata = mysqli_query($connect,"SELECT *	FROM Doctors where type='Emergency Doctor' LIMIT 1 "); 
+  $rows = mysqli_num_rows($getdata);
+
+
+
   
 
 
+  $row = mysqli_fetch_array($getdata);
+
+  if($rows > 0 )
+  {
+          echo '<script language="javascript">';
+      echo 'alert("Doctor: '.$row['name'].' phone: '.$row['phone'].' ")';
+      echo '</script>';
+  }
+  else
+  {
+        
+ 
+  }
   
+
+
+}
 
 
 
@@ -70,7 +97,7 @@ include '../conn.php';
               </div>
               <div class="panel-body">
 
-              <button style="background: #fff;
+              <a style="background: #fff;
                       display: block;
                       border: 1px #000 solid;
                       height: 190px;
@@ -82,7 +109,7 @@ include '../conn.php';
                       margin-bottom: 100px;
                       margin-top: 200px;
                       text-align: center;" 
-                      type="submit" class="btn btn-default btn-block">Call Emergency doctor   &nbsp <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></button>
+                      type="submit"  href="call.php?call=yes"  class="btn btn-default btn-block">Call Emergency doctor   &nbsp <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
              
             </div>
               </div>

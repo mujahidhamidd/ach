@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 25, 2020 at 05:34 PM
+-- Generation Time: Mar 30, 2020 at 08:19 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.11
 
@@ -38,7 +38,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`job_number`, `password`) VALUES
-(7777, 'hjhj');
+(2696, '987654321');
 
 -- --------------------------------------------------------
 
@@ -68,8 +68,8 @@ CREATE TABLE `doctors` (
 --
 
 INSERT INTO `doctors` (`job_number`, `name`, `password`, `email`, `father_name`, `mother_name`, `phone`, `date_of_birth`, `gender`, `major`, `university`, `minor`, `blood_type`, `type`) VALUES
-(123455, 'mujahid', '1234567890', 'mujahid@gmail.com', 'Omer', 'mother', '0505981197', '12/3/1990', 'male', 'male', 'tabouk', 'no', 'o', 'paramedic'),
-(123456, 'Hassan', '1234567890', 'hassan@gmail.com', 'Omer', 'mother', '0505981197', '12/3/1990', 'male', 'male', 'tabouk', 'no', 'o', 'Emergency Doctor');
+(3672, 'Hassan', '1234567890', 'hassan@gmail.com', 'Omer', 'mother', '0505981197', '12/3/1990', 'male', 'mEDICINE', 'tabouk', 'no', 'o', 'paramedic'),
+(4568, 'Ahmed', '1234567890', 'Ahmed@gmail.com', 'Ali', 'mother', '0505981198', '12/3/1990', 'male', 'Medicine', 'tabouk', 'no', 'o', 'Emergency Doctor');
 
 -- --------------------------------------------------------
 
@@ -123,7 +123,7 @@ CREATE TABLE `patient` (
 --
 
 INSERT INTO `patient` (`id_number`, `medical_id`, `location_lng`, `locaion_lat`, `diagnosis`, `complete`, `requested_at`, `name`, `job`, `date_of_birth`, `gender`, `nationality`, `blood pressure`, `breath rate`, `heart rate`, `blood_type`, `height`, `weight`, `hip`, `wrist`, `eat_fruits`, `eat_vegetables`, `eat_meat`, `smoke`, `alcohol`, `drugs`, `cigarrete`, `work_effort`, `moving_effort`, `vacation_effort`, `chronic_diseases`, `danegrous_diseases`, `medication`, `allergic`, `prev_surgeries`, `vaccination`, `family_diseases`, `assurance`) VALUES
-(1234567890, 1234567890, 46.738586, 24.774265, '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            rediagnosis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ', 'no', '2020-03-20 17:53:26', 'omer', 'programmer', '1/9/1004', 'male', 'saudi', 44, 23, 0, 'o2', 23, 67, 12, 22, 'yes', 'yes', 'yes', 'yes', 'no', 'no', 'no', 12, 22, 22, 'diabetes', 'diabetes', 'insulin ', 'nothing', 'nothing', 'no', 'no', 'yes');
+(1234567890, 1234567890, 46.738586, 24.774265, '                    kmkmkm', 'no', '2020-03-28 17:27:01', 'omer', 'programmer', '1/9/1004', 'male', 'saudi', 44, 23, 0, 'o2', 23, 67, 12, 22, 'yes', 'yes', 'yes', 'yes', 'no', 'no', 'no', 12, 22, 22, 'diabetes', 'diabetes', 'insulin ', 'nothing', 'nothing', 'no', 'no', 'yes');
 
 --
 -- Indexes for dumped tables

@@ -11,6 +11,25 @@ $id_number='';
 
 
   $allusers = mysqli_query($connect,"SELECT * FROM doctors  "); 
+
+
+
+  if(isset($_GET['delete_id'])){
+
+    $job_number=$_GET['delete_id'];
+
+
+ 
+
+   
+    $getdata = mysqli_query($connect,"DELETE FROM `doctors` WHERE job_number='$job_number'   "); 
+    
+
+
+    header("Location: allusers.php");
+
+
+  }
  
 
 
@@ -27,7 +46,7 @@ $id_number='';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>All Users </title>
-    <!-- Bootstrap core CSS -->
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
      <link href="css/style.css" rel="stylesheet">
 
@@ -84,7 +103,7 @@ $id_number='';
                       
                     
                    
-                      $row = mysqli_fetch_array($getdata , MYSQLI_BOTH);
+                      $row = mysqli_fetch_array($getdata );
 
 
               
@@ -315,6 +334,7 @@ $id_number='';
                
                       echo "<td>" . $result['type'] . "</td>";
                       echo ' <td><a class="btn btn-danger" href="allusers.php?job_number=' . $result['job_number'] . '">View data</a></td>';
+                      
                       echo "</tr>";
                   }
                    
@@ -365,7 +385,9 @@ $id_number='';
                       echo "<td>" . $rowitem['name'] . "</td>";
                     
                       echo "<td>" . $rowitem['type'] . "</td>";
-                      echo ' <td><a class="btn btn-danger" href="allusers.php?job_number=' . $rowitem['job_number'] . '">View data</a></td>';
+                      echo ' <td><a class="btn btn-success" href="allusers.php?job_number=' . $rowitem['job_number'] . '">View data</a></td>';
+                      echo ' <td><a onclick="return confirm(\'Are you sure?\');" class="btn btn-danger" href="allusers.php?delete_id=' . $rowitem['job_number'] . '">Delete</a></td>';
+                     
                       echo "</tr>";
                   }
                    
@@ -404,9 +426,7 @@ $id_number='';
 
  
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+
    
   </body>
 </html>

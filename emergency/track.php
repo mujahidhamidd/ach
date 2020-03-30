@@ -213,7 +213,7 @@ include '../conn.php';
             content:props.content
           });
 
-          infoWindow.open(map, marker);
+          //infoWindow.open(map, marker);
         }
       }
     }
