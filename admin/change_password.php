@@ -164,6 +164,16 @@ if (isset($_POST['newpassword'],$_POST['oldpassword']) ){
                     border-radius: 20px;
                     width: 100%;" name="newpassword" type="password" class="form-control" placeholder="New Password">
                   </div>
+
+                  <div class="form-group">
+                    <label>Confirm New Password :</label>
+                    <input  style="
+                    display: block;
+                    height: 50px;
+                 
+                    border-radius: 20px;
+                    width: 100%;" name="confirm password" type="confirmpassword" class="form-control" placeholder="Confirm Password">
+                  </div>
                   <button style="background: blue;
                   display: block;
                   height: 50px;

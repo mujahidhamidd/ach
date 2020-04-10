@@ -92,7 +92,7 @@ include '../conn.php';
              
           </div>
           
-          <div class="col-md-8 ">
+          <div class="col-md-4 " style="margin-top: 43px">
    
         
 

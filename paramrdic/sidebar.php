@@ -1,7 +1,7 @@
 <div class="list-group">
               <a ></a>
           
-              <img style="margin-bottom: 13px; width:200px; height:200px; margin-left:50px;" class="img-circle" src="./images/paramedic.jpg" alt="">
+              <img style="margin-bottom: 13px; width:200px; height:200px; margin-left:32px;" class="img-circle" src="./images/paramedic.jpg" alt="">
                <p style="text-align: center; font-size: large;"> <?php   echo 'T00'. $_SESSION['job_number'] ?></p>
               <a href="home.php" style="background:<?php basename($_SERVER['PHP_SELF'])=="home.php"? print 'red':''; ?> " class="list-group-item"> Home  &nbsp <span class=" glyphicon glyphicon-home" aria-hidden="true"></span></a>
               <a href="patientfile.php" style="background:<?php basename($_SERVER['PHP_SELF'])=="patientfile.php"? print 'red':''; ?> " class="list-group-item"> Patient file   &nbsp<span class="glyphicon glyphicon-file" aria-hidden="true"></span></a>

@@ -146,24 +146,6 @@ include '../conn.php';
       var map = new google.maps.Map(document.getElementById('map'), options);
 
 
-      /*
-      // Add marker
-      var marker = new google.maps.Marker({
-        position:{lat:42.4668,lng:-70.9495},
-        map:map,
-        icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-      });
-
-      var infoWindow = new google.maps.InfoWindow({
-        content:'<h1>Lynn MA</h1>'
-      });
-
-      marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-      });
-      */
-
-      // Array of markers
       var markers = [
         {
           coords:{lat:<?php echo $locaion_lat; ?>,lng:<?php echo  $location_lng; ?>},
@@ -175,7 +157,7 @@ include '../conn.php';
         }
       ];
 
-      // Loop through markers
+  
       for(var i = 0;i < markers.length;i++){
         // Add marker
         addMarker(markers[i]);
@@ -213,9 +195,6 @@ include '../conn.php';
             content:props.content
           });
 
-          // marker.addListener('click', function(){
-          //   infoWindow.open(map, marker);
-          // });
         }
       }
     }
